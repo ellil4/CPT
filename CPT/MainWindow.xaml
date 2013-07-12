@@ -1,0 +1,12 @@
+﻿<Window x:Class="CPT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CPT System" Height="350" Width="525" Loaded="Window_Loaded" MouseDown="Window_MouseDown" MouseUp="Window_MouseUp" KeyDown="Window_KeyDown" Foreground="#FF858585">
+    <Grid>
+        <Canvas Height="100" HorizontalAlignment="Left" Name="amCanvas" VerticalAlignment="Top" Width="200" Background="Black">
+            <Ellipse Canvas.Left="0" Canvas.Top="0" Height="100" Name="amEllipse" Stroke="Black" Width="100" Fill="Lime" />
+            <TextBlock Height="50" HorizontalAlignment="Left" Name="amTitle" Text="CPT System Ready, press space to begin." VerticalAlignment="Top" Width="404" FontSize="20" Foreground="#FF868686" />
+        </Canvas>
+        
+    </Grid>
+</Window>
